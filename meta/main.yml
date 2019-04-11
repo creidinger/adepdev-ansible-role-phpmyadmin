@@ -1,11 +1,12 @@
 ---
 dependencies:
-  - creidinger.adpedev-asible-role-common
-  - creidinger.adpedev-asible-role-apache
-  - creidinger.adpedev-asible-role-php
-  - creidinger.adpedev-asible-role-mysql-server
+  - creidinger.common
+  - creidinger.apache
+  - creidinger.php
+  - creidinger.mysql_server
 
 galaxy_info:
+  role_name: phpmyadmin
   author: Chase Reidinger
   description: phpmyadmin for Debian/Ubuntu
   company: "AdepDev, LLC"

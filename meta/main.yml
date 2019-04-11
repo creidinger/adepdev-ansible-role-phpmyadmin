@@ -1,0 +1,36 @@
+---
+dependencies:
+  - creidinger.adpedev-asible-role-common
+  - creidinger.adpedev-asible-role-apache
+  - creidinger.adpedev-asible-role-php
+  - creidinger.adpedev-asible-role-mysql-server
+
+galaxy_info:
+  author: Chase Reidinger
+  description: phpmyadmin for Debian/Ubuntu
+  company: "AdepDev, LLC"
+  license: license (MIT)
+  min_ansible_version: 2.4
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+
+  galaxy_tags:
+    - development
+    - web
+    - server
+    - ubuntu
+    - debian
+    - lamp
+    - php
+    - phpmyadmin
+    - language
+    - wordpress
+    - laravel
+    - codeigniter
+    - symfony

@@ -1,6 +1,6 @@
 ---
 - name: Install PHPMyAdmin
-  apt:
+  package:
     pkg: phpmyadmin
     state: latest
   # notify: restart apache

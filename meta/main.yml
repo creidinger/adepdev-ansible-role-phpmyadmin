@@ -1,9 +1,5 @@
 ---
-dependencies:
-  - creidinger.common
-  - creidinger.apache
-  - creidinger.php
-  - creidinger.mysql_server
+dependencies: []
 
 galaxy_info:
   role_name: phpmyadmin
